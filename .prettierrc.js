@@ -1,4 +1,4 @@
 /**
- * eslint配置
+ * formatter配置
  */
 module.exports = {}
