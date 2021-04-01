@@ -10,7 +10,6 @@ module.exports = {
   trailingComma: 'all',
   bracketSpacing: true,
   jsxBracketSameLine: false,
-  arrowParens: 'none',
   rangeStart: 0,
   rangeEnd: Infinity,
   htmlWhitespaceSensitivity: 'css',
