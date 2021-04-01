@@ -29,5 +29,16 @@
     "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "vue-eslint-parser": "^7.6.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,json,css,vue}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }
